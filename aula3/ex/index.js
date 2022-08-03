@@ -1,0 +1,1 @@
+console.log('Meu nome é "Nome". Estou aprendendo JavaScript às', 10, 'da manhã.') //o número vai fora das aspas porque se ele for dentro ele é considerado string
