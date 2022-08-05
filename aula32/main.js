@@ -7,8 +7,18 @@ const idade1 = 25
 const pessoa1 = {
     nome: 'Luiz',
     sobrenome: 'Miranda',
-    idade: 25
+    idade: 25,
+
+    falar(){
+        console.log(`A minha idade atual é de ${this.idade}`)
+    },
+    
+    incrementarIdade(){
+        this.idade++
+    }
 }
 
 console.log(pessoa1)
-console.log(pessoa1.nome)
+pessoa1.falar()
+pessoa1.incrementarIdade()
+pessoa1.falar()
