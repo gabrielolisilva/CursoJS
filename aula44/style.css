@@ -6,7 +6,7 @@ body{
     background-color: white;
     margin: auto;
     width: 500px;
-    height: 500px;
+    height: 620px;
 }
 
 h1{
@@ -14,26 +14,42 @@ h1{
     text-align: center;
 }
 
-p{
-    text-align: justify;
-    padding: 0px 15px;
+#legenda{
+    display: flex;
+}
+
+#bEsquerda{
+    margin-left: 40px;
+    line-height: 10px;
+}
+
+#bDireita{
+    margin-left: 80px;
+    line-height: 10px;
 }
 
 form > p{
     font-size: 1.2em;
+    padding-left: 20px;
 }
 
 form input{
     height: 1.8em;
-    width: 35em;
+    width: 33.7em;
 }
 
 button{
     width: 460px;
     height: 40px;
     margin-left: 18px;
+    background-color: rgba(255, 0, 0, 0.596);
 }
 
 button:hover{
     background-color: rgb(5, 233, 157);
+}
+
+#textoM{
+    padding-left: 20px;
+    background-color: rgb(8, 209, 8);
 }
