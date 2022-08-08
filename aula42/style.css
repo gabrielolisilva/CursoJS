@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(24, 145, 226, 0.836);
+}
+
+.container{
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    padding: 0px 15px;
+}
+
+form > p{
+    font-size: 1.2em;
+}
+
+form input{
+    height: 1.8em;
+    width: 35em;
+}
+
+button{
+    width: 460px;
+    height: 40px;
+    margin-left: 18px;
+}
+
+button:hover{
+    background-color: rgb(5, 233, 157);
+}
