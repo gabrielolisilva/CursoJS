@@ -1,3 +1,4 @@
+//opção 1
 function meuEscopo(){
     const dataAtual = new Date();
     const diaSemana = dataAtual.getDay();
