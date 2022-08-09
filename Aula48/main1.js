@@ -8,7 +8,7 @@ function meuEscopo(){
     const Hora = dataAtual.getHours();
     const Minuto = dataAtual.getMinutes();
 
-    function textoDiaSemana (valorSemana){
+    function textoDiaSemana (valorSemana){ //ao invés de switch pode usar array tbm
         switch(valorSemana){
             case 0:
             valorSemana = 'Domingo'
