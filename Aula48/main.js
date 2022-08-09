@@ -74,11 +74,15 @@ function meuEscopo(){
         }
 
     }
+
+    function zeroAEsquerda (num){
+        return num >= 10 ? num : `0${num}`
+    }
     let txtDiaSemana = textoDiaSemana (diaSemana);
     let valorDoMes = textoMesdoAno(Mes);
 
     const textoMudado = document.querySelector('h1');
-    textoMudado.innerHTML = `${txtDiaSemana}, ${diaMes} de ${valorDoMes} de ${Ano} <br> ${Hora}:${Minuto}`
+    textoMudado.innerHTML = `${txtDiaSemana}, ${diaMes} de ${valorDoMes} de ${Ano} <br> ${zeroAEsquerda(Hora)}:${zeroAEsquerda(Minuto)}`
 }
 meuEscopo();
 
