@@ -1,4 +1,6 @@
-// For of -> Mostra o valor e não o índice
+//For clássico -> Geralmente com iteráveis (arrays ou strings)
+//For in -> Retorna o índice ou chave (string, array ou objetos)
+// For of -> Retorna o Valor em si (iteráveis, arrays ou strings)
 const nome = 'Gabriel Silva';
 
 for (let i of nome){
