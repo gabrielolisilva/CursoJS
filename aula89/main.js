@@ -18,4 +18,4 @@ pessoa1.falarNome = function(){
 }
 pessoa1.falarNome();
 
-//caso queira travar um objeto Object.freeze(nome do obj)
+//caso queira travar um objeto inteiro Object.freeze(nome do obj)
