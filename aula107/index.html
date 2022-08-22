@@ -19,31 +19,25 @@
         </ul>
 
         
-        <div class="formulario">
+        
+        <form action="/" method="post" class="formulario">
             <p><label for="nome">Nome:</label></p>
-            <input type="text" name="nome" id="nome" autocomplete="off">
-
+            <input type="text" name="nome" id="nome" class="validar" autocomplete="off">
             <p><label for="sobrenome">Sobrenome:</label></p>
-            <input type="text" name="sobrenome" id="sobrenome" autocomplete="off">
-
+            <input type="text" name="sobrenome" id="sobrenome" class="validar" autocomplete="off">
             <p><label for="cpf">CPF:</label></p>
-            <input type="text" name="cpf" id="cpf" autocomplete="off">
-
+            <input type="text" name="cpf" class="cpf validar" autocomplete="off">
             <p><label for="usuario">Usuário:</label></p>
-            <input type="text" name="usuario" id="usuario" autocomplete="off">
-
+            <input type="text" name="usuario" class="usuario validar"  autocomplete="off">
             <p><label for="senha">Senha:</label></p>
-            <input type="text" name="senha" id="senha" autocomplete="off">
-
+             <input type="password" name="senha" class="senha validar" autocomplete="off">
             <p><label for="repetirsenha">Repetir senha:</label></p>
-            <input type="text" name="repetirsenha" id="repetirsenha" autocomplete="off">
-
-        </div>
-
-        <button class="enviar">Enviar</button>
-
+            <input type="password" name="repetirsenha" class="repetirsenha validar" autocomplete="off">
+            <button type="submit" class="enviar">Enviar</button>
+        </form>
     </section>
 
+    <script src="validaCPF.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
