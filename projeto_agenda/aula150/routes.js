@@ -1,16 +1,16 @@
-//ESSE ARQUIVO É SÓ PARA FAZER ROTEAMENTO, VER QUAL ROTA E CHAMAR CONTROLADOR
-
 const express = require ('express')
 const route = express.Router();
 const homeController = require ('./src/controllers/homeController')
-const contatoController = require ('./src/controllers/contatoController')
+const loginController = require ('./src/controllers/loginController')
 
 
-//Rotas da home  
-route.get('/', homeController.paginaInicial);//Controller vai decidir o modelo da rota, view a ser usado
-route.post('/', homeController.trataPost);
+//Todas da home
+route.get('/', homeController.index);
 
-//Rotas de contato
-route.get('/contato', contatoController.paginaInicial)
+//Rotas de login
+route.get('/login/index', loginController.index);
+
+//Rota de register
+route.post('/login/register', loginController.register);
 
 module.exports = route;
